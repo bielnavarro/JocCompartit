@@ -1,3 +1,18 @@
-[gd_scene format=2]
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://mobil bo.png" type="Texture" id=1]
+[ext_resource path="res://fons borrros.jpg" type="Texture" id=2]
+[ext_resource path="res://MobilBo.gd" type="Script" id=3]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="FonsBorrros" type="Sprite" parent="."]
+position = Vector2( 516.75, 297.75 )
+scale = Vector2( 3.74, 3.27049 )
+texture = ExtResource( 2 )
+
+[node name="MobilBo" type="Sprite" parent="."]
+position = Vector2( 501, 298 )
+scale = Vector2( 1.67778, 1.73056 )
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
