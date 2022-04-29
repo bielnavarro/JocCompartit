@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://360_F_259442246_o5tusuc4uBer6O8s0CjVaULQx3ifhJsL.jpg" type="Texture" id=1]
+[ext_resource path="res://objectes/360_F_259442246_o5tusuc4uBer6O8s0CjVaULQx3ifhJsL.jpg" type="Texture" id=1]
 
 [node name="Node2D" type="Node2D"]
 
