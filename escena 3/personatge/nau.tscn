@@ -1,0 +1,51 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://imatges/nau_espacial-removebg-preview.png" type="Texture" id=1]
+[ext_resource path="res://escena 3/personatge/nau.gd" type="Script" id=2]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 17.0
+height = 8.0
+
+[sub_resource type="GDScript" id=2]
+script/source = "extends Node2D
+var inici = Vector2(50,275)
+var posicio = inici
+var velocitat_base = 200
+var velocitat = Vector2.ZERO
+
+
+func _physics_process(delta):
+	
+	velocitat = Vector2.ZERO
+#	if Input.is_action_pressed(\"mou dreta\"):
+#		velocitat.x = velocitat_base
+#	if Input.is_action_pressed(\"mou esquerra\"):
+#		velocitat.x = -velocitat_base
+	if Input. is_action_pressed(\"mou amunt\"):
+		velocitat.y = -velocitat_base
+	if Input. is_action_pressed(\"mou avall\"):
+		velocitat.y = velocitat_base
+	
+	velocitat.normalized()
+	# move_and_slide(velocitat)
+
+"
+
+[node name="pers" type="KinematicBody2D"]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 41, 24 )
+rotation = 1.5708
+shape = SubResource( 1 )
+
+[node name="nau" type="Sprite" parent="."]
+position = Vector2( 41.9058, 24.2681 )
+rotation = 1.5708
+scale = Vector2( 0.101838, 0.11566 )
+texture = ExtResource( 1 )
+script = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="nau"]
+zoom = Vector2( 0.5, 0.5 )
