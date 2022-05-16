@@ -5,19 +5,19 @@
 [ext_resource path="res://MENU PRINCIPAL.gd" type="Script" id=3]
 
 [sub_resource type="DynamicFont" id=1]
-size = 70
+size = 50
 outline_size = 5
 outline_color = Color( 0.0666667, 0.0470588, 0.0470588, 1 )
 font_data = ExtResource( 1 )
 
 [sub_resource type="DynamicFont" id=3]
-size = 70
+size = 50
 outline_size = 5
 outline_color = Color( 0.0235294, 0.0235294, 0.0235294, 1 )
 font_data = ExtResource( 1 )
 
 [sub_resource type="DynamicFont" id=2]
-size = 70
+size = 50
 outline_size = 5
 outline_color = Color( 0.0509804, 0.0470588, 0.0470588, 1 )
 font_data = ExtResource( 1 )
@@ -45,13 +45,13 @@ margin_bottom = 184.0
 
 [node name="VBoxBotones" type="VBoxContainer" parent="VBoxMenu"]
 margin_right = 648.0
-margin_bottom = 362.0
+margin_bottom = 287.0
 custom_constants/separation = 40
 alignment = 1
 
 [node name="Jugar" type="Button" parent="VBoxMenu/VBoxBotones"]
 margin_right = 648.0
-margin_bottom = 94.0
+margin_bottom = 69.0
 custom_colors/font_color_hover = Color( 0.960784, 1, 0, 1 )
 custom_colors/font_color_pressed = Color( 0.0117647, 0.0117647, 0.0117647, 1 )
 custom_fonts/font = SubResource( 1 )
@@ -59,9 +59,9 @@ text = "JUGAR"
 flat = true
 
 [node name="Configuracio" type="Button" parent="VBoxMenu/VBoxBotones"]
-margin_top = 134.0
+margin_top = 109.0
 margin_right = 648.0
-margin_bottom = 228.0
+margin_bottom = 178.0
 custom_colors/font_color_hover = Color( 0.960784, 1, 0, 1 )
 custom_colors/font_color_pressed = Color( 0.00784314, 0.00784314, 0.00784314, 1 )
 custom_fonts/font = SubResource( 3 )
@@ -69,9 +69,9 @@ text = "CONFIGURACIÓ"
 flat = true
 
 [node name="Sortir" type="Button" parent="VBoxMenu/VBoxBotones"]
-margin_top = 268.0
+margin_top = 218.0
 margin_right = 648.0
-margin_bottom = 362.0
+margin_bottom = 287.0
 custom_colors/font_color_hover = Color( 0.960784, 1, 0, 1 )
 custom_colors/font_color_pressed = Color( 0.0117647, 0.0117647, 0.0117647, 1 )
 custom_fonts/font = SubResource( 2 )
