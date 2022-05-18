@@ -1,8 +1,14 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Kenney Mini Square Mono.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://FONDO MENU.tscn" type="PackedScene" id=2]
 [ext_resource path="res://MENU PRINCIPAL.gd" type="Script" id=3]
+
+[sub_resource type="DynamicFont" id=4]
+size = 49
+outline_size = 5
+outline_color = Color( 0.0156863, 0.0117647, 0, 1 )
+font_data = ExtResource( 1 )
 
 [sub_resource type="DynamicFont" id=1]
 size = 50
@@ -27,21 +33,35 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -960.0
-margin_top = -540.0
-margin_right = 960.0
-margin_bottom = 540.0
+margin_left = -952.0
+margin_top = -562.0
+margin_right = 968.0
+margin_bottom = 518.0
 script = ExtResource( 3 )
 
-[node name="VBoxMenu" type="VBoxContainer" parent="."]
+[node name="Label" type="Label" parent="."]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
+margin_left = -389.0
+margin_top = -199.0
+margin_right = 420.0
+margin_bottom = 95.0
+custom_colors/font_color = Color( 0, 0.113725, 1, 1 )
+custom_fonts/font = SubResource( 4 )
+text = "LA FUGA D'EN PEP"
+align = 1
+
+[node name="VBoxMenu" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.544
+anchor_right = 0.5
+anchor_bottom = 0.544
 margin_left = -324.0
-margin_top = -178.0
+margin_top = -153.52
 margin_right = 324.0
-margin_bottom = 184.0
+margin_bottom = 133.48
 
 [node name="VBoxBotones" type="VBoxContainer" parent="VBoxMenu"]
 margin_right = 648.0
