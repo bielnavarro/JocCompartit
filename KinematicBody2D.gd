@@ -3,7 +3,7 @@ extends KinematicBody2D
 var velocitat_base = 200
 var gravetat = Vector2.DOWN * 980
 var velocitat =  Vector2.ZERO
-var salt = Vector2.UP * 350
+var salt = Vector2.UP * 450
 
 func _physics_process(delta):
 	
@@ -35,3 +35,5 @@ func anima(velocitat: Vector2):
 	
 	if velocitat.y < -1:
 		animacio.play('jump')
+	if abs(velocitat.x) < 0.1:
+		animacio.play('quiet')
