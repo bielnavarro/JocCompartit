@@ -57,3 +57,8 @@ func _on_cotxeraro_body_entered(body):
 
 func _on_cotxeraro2_body_entered(body):
 	get_tree().reload_current_scene()
+
+
+func _on_casa_final_body_entered(body):
+	if body.name == 'cotxelladre':
+		get_tree().change_scene("res://MENU PRINCIPAL.tscn")
