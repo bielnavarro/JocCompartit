@@ -39,8 +39,8 @@ extents = Vector2( 34.5, 53.75 )
 script = ExtResource( 11 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 2, 2.00003 )
-scale = Vector2( 3.18, 3.93919 )
+position = Vector2( 12.25, -3.06248 )
+scale = Vector2( 3.59, 4.21284 )
 frames = SubResource( 1 )
 animation = "quiet"
 
@@ -48,3 +48,6 @@ animation = "quiet"
 visible = false
 position = Vector2( 1.5, 25.25 )
 shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
