@@ -19,44 +19,44 @@ func _physics_process(delta):
 
 
 func _on_policia1_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 
 func _on_policia2_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 
 func _on_policia3_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 
 func _on_policia4_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 
 func _on_camio_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 
 func _on_camio2_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 func _on_cotxerapid_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 
 func _on_bombero_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 func _on_bombero2_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 func _on_cotxeraro_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 
 func _on_cotxeraro2_body_entered(body):
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 
 func _on_casa_final_body_entered(body):

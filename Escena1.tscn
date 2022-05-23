@@ -85,6 +85,7 @@ position = Vector2( 4245.75, 431 )
 shape = SubResource( 2 )
 
 [node name="terra1" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="ColorRect" type="ColorRect" parent="terra1"]
 margin_left = 4.0
@@ -94,7 +95,6 @@ margin_bottom = 954.0
 color = Color( 0.301961, 0.301961, 0.301961, 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="terra1"]
-visible = false
 position = Vector2( 4582.25, 614 )
 shape = SubResource( 1 )
 
@@ -102,7 +102,7 @@ shape = SubResource( 1 )
 position = Vector2( 247, 535 )
 
 [node name="final" parent="." instance=ExtResource( 8 )]
-position = Vector2( 4708, 425 )
+position = Vector2( 4741, 387 )
 script = ExtResource( 9 )
 
 [node name="policia1" parent="." instance=ExtResource( 2 )]

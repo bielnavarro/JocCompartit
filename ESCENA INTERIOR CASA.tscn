@@ -1,0 +1,172 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://parquet3.png" type="Texture" id=1]
+[ext_resource path="res://paret1.png" type="Texture" id=2]
+[ext_resource path="res://sofa3.png" type="Texture" id=3]
+[ext_resource path="res://planta1.png" type="Texture" id=4]
+[ext_resource path="res://cadira.PNG" type="Texture" id=5]
+[ext_resource path="res://estanteria3.png" type="Texture" id=6]
+[ext_resource path="res://estanteria1.png" type="Texture" id=7]
+[ext_resource path="res://lampara1.png" type="Texture" id=8]
+[ext_resource path="res://png-transparent-brown-wooden-bar-wood-stain-varnish-hardwood-plywood-wooden-tables-angle-furniture-rectangle-thumbnail.png" type="Texture" id=9]
+[ext_resource path="res://moble4.png" type="Texture" id=10]
+[ext_resource path="res://tele1.png" type="Texture" id=11]
+[ext_resource path="res://finestra2.png" type="Texture" id=12]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 2, 597.5 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 2.5, 598 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 510.625, 1.5 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 418.25, 8.5 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="fondo1" type="Sprite" parent="."]
+position = Vector2( 512.5, 300.5 )
+scale = Vector2( 7.04795, 4.60769 )
+texture = ExtResource( 2 )
+
+[node name="fondo2" type="Sprite" parent="."]
+position = Vector2( 515, -298 )
+scale = Vector2( 7.048, 4.608 )
+texture = ExtResource( 2 )
+
+[node name="terra1" type="Sprite" parent="."]
+position = Vector2( 512.25, 571.5 )
+scale = Vector2( 3.59825, 0.59375 )
+texture = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="terra1"]
+
+[node name="sofa1" type="Sprite" parent="."]
+position = Vector2( 225.375, 508.5 )
+scale = Vector2( 0.785857, 0.547619 )
+texture = ExtResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sofa1"]
+
+[node name="planta1" type="Sprite" parent="."]
+position = Vector2( 367, 509 )
+scale = Vector2( 0.284296, 0.251859 )
+texture = ExtResource( 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="planta1"]
+
+[node name="cadira1" type="Sprite" parent="."]
+position = Vector2( 508, 507 )
+scale = Vector2( 0.287011, 0.245209 )
+texture = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cadira1"]
+
+[node name="estanteria1" type="Sprite" parent="."]
+position = Vector2( 663.25, 463.125 )
+scale = Vector2( 0.47, 0.340233 )
+texture = ExtResource( 7 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="estanteria1"]
+
+[node name="lampara1" type="Sprite" parent="."]
+position = Vector2( 847, 485 )
+scale = Vector2( 0.45, 0.392857 )
+texture = ExtResource( 8 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="lampara1"]
+
+[node name="estanteria2" type="Sprite" parent="."]
+position = Vector2( 982, 356 )
+scale = Vector2( 0.535295, 0.391304 )
+texture = ExtResource( 6 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="estanteria2"]
+
+[node name="finestra1" type="Sprite" parent="."]
+position = Vector2( 341, 368 )
+scale = Vector2( 0.618182, 0.43299 )
+texture = ExtResource( 12 )
+
+[node name="paret d" type="StaticBody2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="paret d"]
+margin_left = 1027.0
+margin_top = -595.0
+margin_right = 1030.0
+margin_bottom = 601.0
+color = Color( 0.0156863, 0.0156863, 0.0156863, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="paret d"]
+visible = false
+position = Vector2( 1029, 2.5 )
+shape = SubResource( 1 )
+
+[node name="paret e" type="StaticBody2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="paret e"]
+margin_left = -2.0
+margin_top = -597.0
+margin_right = 4.0
+margin_bottom = 600.0
+color = Color( 0.0431373, 0.0431373, 0.0431373, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="paret e"]
+visible = false
+position = Vector2( 1.5, 1 )
+shape = SubResource( 2 )
+
+[node name="terra" type="StaticBody2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="terra"]
+margin_left = 3.0
+margin_top = 595.0
+margin_right = 1027.0
+margin_bottom = 600.0
+color = Color( 0.0313726, 0.0313726, 0.0313726, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="terra"]
+visible = false
+position = Vector2( 514.375, 597 )
+shape = SubResource( 3 )
+
+[node name="sostre1" type="StaticBody2D" parent="."]
+
+[node name="Sprite" type="Sprite" parent="sostre1"]
+position = Vector2( 428.5, 266 )
+scale = Vector2( 2.35278, 0.452381 )
+texture = ExtResource( 9 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sostre1"]
+visible = false
+position = Vector2( 428.75, 266.5 )
+shape = SubResource( 4 )
+
+[node name="moble4" type="Sprite" parent="."]
+position = Vector2( 676.875, 238.625 )
+scale = Vector2( 0.200658, 0.154605 )
+texture = ExtResource( 10 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="moble4"]
+
+[node name="tele1" type="Sprite" parent="."]
+position = Vector2( 501, 216 )
+scale = Vector2( 0.593878, 0.56993 )
+texture = ExtResource( 11 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="tele1"]
+
+[node name="estanteria3" type="Sprite" parent="."]
+position = Vector2( 311, 180 )
+scale = Vector2( 0.446534, 0.328252 )
+texture = ExtResource( 7 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="estanteria3"]
+
+[node name="finestra2" type="Sprite" parent="."]
+position = Vector2( 692, 104 )
+scale = Vector2( 0.595455, 0.463917 )
+texture = ExtResource( 12 )
