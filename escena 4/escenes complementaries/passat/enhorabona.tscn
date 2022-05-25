@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://imatges/enhorabona.PNG" type="Texture" id=1]
+[ext_resource path="res://escena 4/escenes complementaries/passat/enhorabona.gd" type="Script" id=2]
+
+[node name="Enhorabona" type="Sprite"]
+position = Vector2( 511, 302 )
+scale = Vector2( 0.833597, 0.722851 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )

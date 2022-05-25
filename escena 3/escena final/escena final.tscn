@@ -18,27 +18,51 @@ scale = Vector2( 1.5, 1.5 )
 [node name="fons" type="Sprite" parent="."]
 self_modulate = Color( 0.654902, 0.654902, 0.654902, 1 )
 show_behind_parent = true
-position = Vector2( 1841.17, 320 )
-scale = Vector2( 6.52342, 2.00718 )
+position = Vector2( 2123, 235.75 )
+scale = Vector2( 9.14058, 3.75718 )
 texture = ExtResource( 1 )
 script = ExtResource( 6 )
 
 [node name="sostre" parent="." instance=ExtResource( 3 )]
-modulate = Color( 0, 0, 0, 1 )
+modulate = Color( 0.388235, 0.329412, 0.329412, 1 )
 position = Vector2( -2729, -705 )
 scale = Vector2( 24.618, 3.94906 )
 
 [node name="terra" parent="." instance=ExtResource( 3 )]
-modulate = Color( 0, 0, 0, 1 )
+modulate = Color( 0.388235, 0.329412, 0.329412, 1 )
 position = Vector2( -2807, -26 )
 scale = Vector2( 25.3658, 4.25916 )
 
 [node name="portal" parent="." instance=ExtResource( 5 )]
-modulate = Color( 0.337255, 0.301961, 0.988235, 1 )
-position = Vector2( 3299, 75 )
+modulate = Color( 0.9375, 0.9375, 0.9375, 1 )
+position = Vector2( 3224, -124 )
 
 [node name="bala 1" parent="." instance=ExtResource( 4 )]
 position = Vector2( 773, -246 )
+
+[node name="bala 81" parent="." instance=ExtResource( 4 )]
+position = Vector2( 372, -257 )
+
+[node name="bala 83" parent="." instance=ExtResource( 4 )]
+position = Vector2( 369, -88 )
+
+[node name="bala 84" parent="." instance=ExtResource( 4 )]
+position = Vector2( 370, -30 )
+
+[node name="bala 87" parent="." instance=ExtResource( 4 )]
+position = Vector2( 364, 94 )
+
+[node name="bala 89" parent="." instance=ExtResource( 4 )]
+position = Vector2( 364, 153 )
+
+[node name="bala 88" parent="." instance=ExtResource( 4 )]
+position = Vector2( 366, 34 )
+
+[node name="bala 85" parent="." instance=ExtResource( 4 )]
+position = Vector2( 370, -146 )
+
+[node name="bala 86" parent="." instance=ExtResource( 4 )]
+position = Vector2( 371, -203 )
 
 [node name="bala 2" parent="." instance=ExtResource( 4 )]
 position = Vector2( 773, -189 )
@@ -65,22 +89,22 @@ position = Vector2( 776, -16 )
 position = Vector2( 779, 280 )
 
 [node name="bala 10" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1340, 129 )
+position = Vector2( 1338, 70 )
 
 [node name="bala 11" parent="." instance=ExtResource( 4 )]
 position = Vector2( 1327, -248 )
 
 [node name="bala 12" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1040, 194 )
+position = Vector2( 1048, 193 )
 
 [node name="bala 64" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1039, 118 )
+position = Vector2( 1045, 128 )
 
 [node name="bala 13" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1041, 268 )
+position = Vector2( 1046, 267 )
 
 [node name="bala 14" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1049, -44 )
+position = Vector2( 1044, 63 )
 
 [node name="bala 15" parent="." instance=ExtResource( 4 )]
 position = Vector2( 1334, -96 )
@@ -92,7 +116,7 @@ position = Vector2( 1051, -190 )
 position = Vector2( 1050, -256 )
 
 [node name="bala 18" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1337, 49 )
+position = Vector2( 1337, -10 )
 
 [node name="bala 19" parent="." instance=ExtResource( 4 )]
 position = Vector2( 1329, -180 )
@@ -101,7 +125,7 @@ position = Vector2( 1329, -180 )
 position = Vector2( 1050, -114 )
 
 [node name="bala 21" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1340, 220 )
+position = Vector2( 1340, 214 )
 
 [node name="bala 51" parent="." instance=ExtResource( 4 )]
 position = Vector2( 1340, 278 )
@@ -119,7 +143,7 @@ position = Vector2( 2177, -24 )
 position = Vector2( 1915, -41 )
 
 [node name="bala 78" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1917, 275 )
+position = Vector2( 1915, 198 )
 
 [node name="bala 79" parent="." instance=ExtResource( 4 )]
 position = Vector2( 1912, 114 )
@@ -155,16 +179,16 @@ position = Vector2( 1575, 260 )
 position = Vector2( 1577, 112 )
 
 [node name="bala 31" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1570, -32 )
+position = Vector2( 1571, -38 )
 
 [node name="bala 32" parent="." instance=ExtResource( 4 )]
 position = Vector2( 2654, 171 )
 
 [node name="bala 40" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2844, -178 )
+position = Vector2( 2871, -173 )
 
 [node name="bala 47" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2855, 72 )
+position = Vector2( 2877, 31 )
 
 [node name="bala 59" parent="." instance=ExtResource( 4 )]
 position = Vector2( 3178, -181 )
@@ -173,7 +197,7 @@ position = Vector2( 3178, -181 )
 position = Vector2( 3182, -248 )
 
 [node name="bala 67" parent="." instance=ExtResource( 4 )]
-position = Vector2( 3441, -56 )
+position = Vector2( 3441, 8 )
 
 [node name="bala 71" parent="." instance=ExtResource( 4 )]
 position = Vector2( 3449, 278 )
@@ -182,13 +206,13 @@ position = Vector2( 3449, 278 )
 position = Vector2( 1572, -256 )
 
 [node name="bala 75" parent="." instance=ExtResource( 4 )]
-position = Vector2( 3448, 214 )
+position = Vector2( 3443, 218 )
 
 [node name="bala 72" parent="." instance=ExtResource( 4 )]
-position = Vector2( 3441, 5 )
+position = Vector2( 3441, 79 )
 
 [node name="bala 73" parent="." instance=ExtResource( 4 )]
-position = Vector2( 3440, 65 )
+position = Vector2( 3444, 156 )
 
 [node name="bala 68" parent="." instance=ExtResource( 4 )]
 position = Vector2( 3435, -253 )
@@ -206,13 +230,13 @@ position = Vector2( 3181, -111 )
 position = Vector2( 3179, -47 )
 
 [node name="bala 62" parent="." instance=ExtResource( 4 )]
-position = Vector2( 3181, 21 )
+position = Vector2( 3186, 85 )
 
 [node name="bala 63" parent="." instance=ExtResource( 4 )]
 position = Vector2( 3189, 214 )
 
 [node name="bala 77" parent="." instance=ExtResource( 4 )]
-position = Vector2( 3190, 156 )
+position = Vector2( 3189, 155 )
 
 [node name="bala 66" parent="." instance=ExtResource( 4 )]
 position = Vector2( 3188, 273 )
@@ -221,25 +245,25 @@ position = Vector2( 3188, 273 )
 position = Vector2( 2168, 227 )
 
 [node name="bala 82" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2167, 166 )
+position = Vector2( 2173, 56 )
 
 [node name="bala 53" parent="." instance=ExtResource( 4 )]
 position = Vector2( 2168, 283 )
 
 [node name="bala 50" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2853, 229 )
+position = Vector2( 2873, 229 )
 
 [node name="bala 56" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2853, 277 )
+position = Vector2( 2873, 276 )
 
 [node name="bala 48" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2842, -252 )
+position = Vector2( 2874, -245 )
 
 [node name="bala 41" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2849, -72 )
+position = Vector2( 2872, -96 )
 
 [node name="bala 42" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2853, 5 )
+position = Vector2( 2871, -29 )
 
 [node name="bala 43" parent="." instance=ExtResource( 4 )]
 position = Vector2( 2637, -243 )
@@ -251,7 +275,7 @@ position = Vector2( 2641, -169 )
 position = Vector2( 2645, -76 )
 
 [node name="bala 46" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2649, 7 )
+position = Vector2( 2645, -14 )
 
 [node name="bala 33" parent="." instance=ExtResource( 4 )]
 position = Vector2( 2658, 226 )
@@ -260,16 +284,16 @@ position = Vector2( 2658, 226 )
 position = Vector2( 2656, 285 )
 
 [node name="bala 34" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2429, 236 )
+position = Vector2( 2420, 128 )
 
 [node name="bala 54" parent="." instance=ExtResource( 4 )]
 position = Vector2( 2429, 284 )
 
 [node name="bala 35" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2422, 100 )
+position = Vector2( 2414, 63 )
 
 [node name="bala 36" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2418, 9 )
+position = Vector2( 2416, -7 )
 
 [node name="bala 37" parent="." instance=ExtResource( 4 )]
 position = Vector2( 2416, -85 )
@@ -282,6 +306,14 @@ position = Vector2( 2415, -243 )
 
 [connection signal="body_entered" from="portal" to="nau/pers" method="_on_Area2D_body_entered"]
 [connection signal="body_entered" from="bala 1" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 81" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 83" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 84" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 87" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 89" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 88" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 85" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 86" to="nau/pers" method="_on_bala_1_body_entered"]
 [connection signal="body_entered" from="bala 2" to="nau/pers" method="_on_bala_1_body_entered"]
 [connection signal="body_entered" from="bala 3" to="nau/pers" method="_on_bala_1_body_entered"]
 [connection signal="body_entered" from="bala 4" to="nau/pers" method="_on_bala_1_body_entered"]
