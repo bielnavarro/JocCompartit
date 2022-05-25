@@ -16,22 +16,23 @@ position = Vector2( 125, 285 )
 scale = Vector2( 1.5, 1.5 )
 
 [node name="fons" type="Sprite" parent="."]
+visible = false
 self_modulate = Color( 0.654902, 0.654902, 0.654902, 1 )
 show_behind_parent = true
-position = Vector2( 2123, 235.75 )
+position = Vector2( 2207, 305 )
 scale = Vector2( 9.14058, 3.75718 )
 texture = ExtResource( 1 )
 script = ExtResource( 6 )
 
-[node name="sostre" parent="." instance=ExtResource( 3 )]
-modulate = Color( 0.388235, 0.329412, 0.329412, 1 )
-position = Vector2( -2729, -705 )
-scale = Vector2( 24.618, 3.94906 )
-
 [node name="terra" parent="." instance=ExtResource( 3 )]
-modulate = Color( 0.388235, 0.329412, 0.329412, 1 )
-position = Vector2( -2807, -26 )
-scale = Vector2( 25.3658, 4.25916 )
+modulate = Color( 0.117647, 0.388235, 0.607843, 1 )
+position = Vector2( -2993, -3782 )
+scale = Vector2( 24.7984, 29.1008 )
+
+[node name="terra2" parent="." instance=ExtResource( 3 )]
+modulate = Color( 0.117647, 0.388235, 0.607843, 1 )
+position = Vector2( -2829, -5182 )
+scale = Vector2( 24.7984, 29.1008 )
 
 [node name="portal" parent="." instance=ExtResource( 5 )]
 modulate = Color( 0.9375, 0.9375, 0.9375, 1 )
