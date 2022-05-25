@@ -37,3 +37,8 @@ func anima(velocitat: Vector2):
 		animacio.play('jump')
 	if abs(velocitat.x) < 0.1:
 		animacio.play('quiet')
+
+
+func _on_Button_pressed():
+	get_tree().change_scene("res://Sortida del banc.tscn")
+	
