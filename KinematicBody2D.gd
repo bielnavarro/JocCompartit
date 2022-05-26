@@ -32,13 +32,19 @@ func anima(velocitat: Vector2):
 	elif velocitat.x < 0:
 		animacio.flip_h = true
 		animacio.play('run')
-	
 	if velocitat.y < -1:
 		animacio.play('jump')
+	
 	if abs(velocitat.x) < 0.1:
 		animacio.play('quiet')
 
 
 func _on_Button_pressed():
 	get_tree().change_scene("res://Sortida del banc.tscn")
-	
+
+
+
+func _on_Area2D_body_entered(body):
+	get_tree().change_scene("res://PARKING.tscn")
+
+
