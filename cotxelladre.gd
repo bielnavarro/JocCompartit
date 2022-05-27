@@ -59,10 +59,10 @@ func _on_cotxeraro2_body_entered(body):
 	get_tree().change_scene("res://MENU DE MORT.tscn")
 
 
-func _on_casa_final_body_entered(body):
-	if body.name == 'cotxelladre':
-		get_tree().change_scene("res://MENU PRINCIPAL.tscn")
+
+
 
 
 func _on_final_body_entered(body):
-	get_tree().change_scene("res://ESCENA INTERIOR CASA.tscn")
+	if body.name == 'cotxelladre':
+		get_tree().change_scene("res://ESCENA INTERIOR CASA.tscn")

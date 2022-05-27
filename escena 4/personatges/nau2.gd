@@ -17,8 +17,6 @@ func _physics_process(delta):
 		velocitat.y = -velocitat_base2
 	if Input. is_action_pressed("mou avall"):
 		velocitat.y = velocitat_base2
-	if Input. is_action_pressed("espai"):
-		position = Vector2(777,196)
 	
 	velocitat.normalized()
 	move_and_slide(velocitat)

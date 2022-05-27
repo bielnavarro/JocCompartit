@@ -12,13 +12,13 @@
 [node name="nau" type="Sprite" parent="."]
 
 [node name="pers" parent="nau" instance=ExtResource( 2 )]
-position = Vector2( 125, 285 )
+position = Vector2( 214, 419 )
 scale = Vector2( 1.5, 1.5 )
 
 [node name="fons" type="Sprite" parent="."]
 self_modulate = Color( 0.654902, 0.654902, 0.654902, 1 )
 show_behind_parent = true
-position = Vector2( 2123, 235.75 )
+position = Vector2( 2170, 236 )
 scale = Vector2( 9.14058, 3.75718 )
 texture = ExtResource( 1 )
 script = ExtResource( 6 )

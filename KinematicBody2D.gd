@@ -48,3 +48,11 @@ func _on_Area2D_body_entered(body):
 	get_tree().change_scene("res://escena jon/PARKING.tscn")
 
 
+
+
+func _on_cotxe_canviescena_body_entered(body):
+	get_tree().change_scene("res://ESQUIVAR COTXES.tscn")
+
+
+func _on_PORTACASAINT_body_entered(body):
+	get_tree().change_scene("res://escena 3/escena final/escena final.tscn")

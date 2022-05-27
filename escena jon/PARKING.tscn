@@ -63,9 +63,9 @@ texture = ExtResource( 5 )
 [node name="KinematicBody2D" parent="." instance=ExtResource( 4 )]
 position = Vector2( -48, 512 )
 
-[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+[node name="cotxe canviescena" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cotxe canviescena"]
 position = Vector2( 1060.75, 481 )
 shape = SubResource( 3 )
 
@@ -74,3 +74,5 @@ shape = SubResource( 3 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
 position = Vector2( -165.75, 453.75 )
 shape = SubResource( 4 )
+
+[connection signal="body_entered" from="cotxe canviescena" to="KinematicBody2D" method="_on_cotxe_canviescena_body_entered"]
