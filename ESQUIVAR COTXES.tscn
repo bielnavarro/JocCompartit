@@ -107,7 +107,7 @@ position = Vector2( 4741, 387 )
 script = ExtResource( 9 )
 
 [node name="policia1" parent="." instance=ExtResource( 2 )]
-position = Vector2( 4713, 483 )
+position = Vector2( 8641, 559 )
 scale = Vector2( 0.535, 0.55 )
 
 [node name="policia2" parent="." instance=ExtResource( 2 )]

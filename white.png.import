@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<<< HEAD:baixa (4).png.import
-path="res://.import/baixa (4).png-332dc3501efe21cf18019e543c6733f2.stex"
-========
 path="res://.import/white.png-d8533361663a5f8fe5200e5b5262a62d.stex"
->>>>>>>> Jon:white.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:baixa (4).png.import
-source_file="res://baixa (4).png"
-dest_files=[ "res://.import/baixa (4).png-332dc3501efe21cf18019e543c6733f2.stex" ]
-========
 source_file="res://white.png"
 dest_files=[ "res://.import/white.png-d8533361663a5f8fe5200e5b5262a62d.stex" ]
->>>>>>>> Jon:white.png.import
 
 [params]
 

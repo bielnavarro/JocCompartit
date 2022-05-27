@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<<< HEAD:1.webp.import
 path="res://.import/1.webp-59faef1a0db3c0ec1fe5073b7610408b.stex"
-========
-path="res://.import/Run.png-9b3c4600bb0c868b01dc453c61f85da6.stex"
->>>>>>>> Jon:Run.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:1.webp.import
 source_file="res://1.webp"
 dest_files=[ "res://.import/1.webp-59faef1a0db3c0ec1fe5073b7610408b.stex" ]
-========
-source_file="res://Run.png"
-dest_files=[ "res://.import/Run.png-9b3c4600bb0c868b01dc453c61f85da6.stex" ]
->>>>>>>> Jon:Run.png.import
 
 [params]
 

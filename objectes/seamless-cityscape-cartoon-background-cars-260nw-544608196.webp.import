@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<<< HEAD:objectes/seamless-cityscape-cartoon-background-cars-260nw-544608196.webp.import
 path="res://.import/seamless-cityscape-cartoon-background-cars-260nw-544608196.webp-02f7e0c82ab433e61524d59aa59ed044.stex"
-========
-path="res://.import/seamless-cityscape-cartoon-background-cars-260nw-544608196.webp-90b31d6a5dbfde20ef990e89ca7266a6.stex"
->>>>>>>> Jon:Fotos/seamless-cityscape-cartoon-background-cars-260nw-544608196.webp.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:objectes/seamless-cityscape-cartoon-background-cars-260nw-544608196.webp.import
 source_file="res://objectes/seamless-cityscape-cartoon-background-cars-260nw-544608196.webp"
 dest_files=[ "res://.import/seamless-cityscape-cartoon-background-cars-260nw-544608196.webp-02f7e0c82ab433e61524d59aa59ed044.stex" ]
-========
-source_file="res://Fotos/seamless-cityscape-cartoon-background-cars-260nw-544608196.webp"
-dest_files=[ "res://.import/seamless-cityscape-cartoon-background-cars-260nw-544608196.webp-90b31d6a5dbfde20ef990e89ca7266a6.stex" ]
->>>>>>>> Jon:Fotos/seamless-cityscape-cartoon-background-cars-260nw-544608196.webp.import
 
 [params]
 

@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<<< HEAD:baixa (3).png.import
 path="res://.import/baixa (3).png-5b5885ed1108c25aaff397b1f07ce6fd.stex"
-========
-path="res://.import/blue_grass.png-949923d2105e9f043180aae3a02ff8b0.stex"
->>>>>>>> Jon:PNG/Backgrounds/blue_grass.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:baixa (3).png.import
 source_file="res://baixa (3).png"
 dest_files=[ "res://.import/baixa (3).png-5b5885ed1108c25aaff397b1f07ce6fd.stex" ]
-========
-source_file="res://PNG/Backgrounds/blue_grass.png"
-dest_files=[ "res://.import/blue_grass.png-949923d2105e9f043180aae3a02ff8b0.stex" ]
->>>>>>>> Jon:PNG/Backgrounds/blue_grass.png.import
 
 [params]
 

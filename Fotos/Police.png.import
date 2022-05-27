@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<<< HEAD:cadira.PNG.import
-path="res://.import/cadira.PNG-22b63f82c6b5fd067dc62ac65b075fcc.stex"
-========
 path="res://.import/Police.png-791e37abee98df9826a0d1c75478cee3.stex"
->>>>>>>> Jon:Fotos/Police.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:cadira.PNG.import
-source_file="res://cadira.PNG"
-dest_files=[ "res://.import/cadira.PNG-22b63f82c6b5fd067dc62ac65b075fcc.stex" ]
-========
 source_file="res://Fotos/Police.png"
 dest_files=[ "res://.import/Police.png-791e37abee98df9826a0d1c75478cee3.stex" ]
->>>>>>>> Jon:Fotos/Police.png.import
 
 [params]
 
