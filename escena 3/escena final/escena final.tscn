@@ -1,0 +1,396 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://imatges/fons.webp" type="Texture" id=1]
+[ext_resource path="res://escena 3/personatge/nau.tscn" type="PackedScene" id=2]
+[ext_resource path="res://escena 3/personatge/límits.tscn" type="PackedScene" id=3]
+[ext_resource path="res://escena 3/personatge/bala1.tscn" type="PackedScene" id=4]
+[ext_resource path="res://escena 3/personatge/portal.tscn" type="PackedScene" id=5]
+[ext_resource path="res://escena 3/escena final/fons.gd" type="Script" id=6]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="nau" type="Sprite" parent="."]
+
+[node name="pers" parent="nau" instance=ExtResource( 2 )]
+position = Vector2( 125, 285 )
+scale = Vector2( 1.5, 1.5 )
+
+[node name="fons" type="Sprite" parent="."]
+self_modulate = Color( 0.654902, 0.654902, 0.654902, 1 )
+show_behind_parent = true
+position = Vector2( 2123, 235.75 )
+scale = Vector2( 9.14058, 3.75718 )
+texture = ExtResource( 1 )
+script = ExtResource( 6 )
+
+[node name="sostre" parent="." instance=ExtResource( 3 )]
+modulate = Color( 0.388235, 0.329412, 0.329412, 1 )
+position = Vector2( -2729, -705 )
+scale = Vector2( 24.618, 3.94906 )
+
+[node name="terra" parent="." instance=ExtResource( 3 )]
+modulate = Color( 0.388235, 0.329412, 0.329412, 1 )
+position = Vector2( -2807, -26 )
+scale = Vector2( 25.3658, 4.25916 )
+
+[node name="portal" parent="." instance=ExtResource( 5 )]
+modulate = Color( 0.9375, 0.9375, 0.9375, 1 )
+position = Vector2( 3224, -124 )
+
+[node name="bala 1" parent="." instance=ExtResource( 4 )]
+position = Vector2( 773, -246 )
+
+[node name="bala 81" parent="." instance=ExtResource( 4 )]
+position = Vector2( 372, -257 )
+
+[node name="bala 83" parent="." instance=ExtResource( 4 )]
+position = Vector2( 369, -88 )
+
+[node name="bala 84" parent="." instance=ExtResource( 4 )]
+position = Vector2( 370, -30 )
+
+[node name="bala 87" parent="." instance=ExtResource( 4 )]
+position = Vector2( 364, 94 )
+
+[node name="bala 89" parent="." instance=ExtResource( 4 )]
+position = Vector2( 364, 153 )
+
+[node name="bala 88" parent="." instance=ExtResource( 4 )]
+position = Vector2( 366, 34 )
+
+[node name="bala 85" parent="." instance=ExtResource( 4 )]
+position = Vector2( 370, -146 )
+
+[node name="bala 86" parent="." instance=ExtResource( 4 )]
+position = Vector2( 371, -203 )
+
+[node name="bala 2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 773, -189 )
+
+[node name="bala 3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 775, -131 )
+
+[node name="bala 4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 773, -74 )
+
+[node name="bala 5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 779, 203 )
+
+[node name="bala 6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 777, 85 )
+
+[node name="bala 7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 775, 36 )
+
+[node name="bala 8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 776, -16 )
+
+[node name="bala 9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 779, 280 )
+
+[node name="bala 10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1338, 70 )
+
+[node name="bala 11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1327, -248 )
+
+[node name="bala 12" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1048, 193 )
+
+[node name="bala 64" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1045, 128 )
+
+[node name="bala 13" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1046, 267 )
+
+[node name="bala 14" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1044, 63 )
+
+[node name="bala 15" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1334, -96 )
+
+[node name="bala 16" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1051, -190 )
+
+[node name="bala 17" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1050, -256 )
+
+[node name="bala 18" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1337, -10 )
+
+[node name="bala 19" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1329, -180 )
+
+[node name="bala 20" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1050, -114 )
+
+[node name="bala 21" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1340, 214 )
+
+[node name="bala 51" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1340, 278 )
+
+[node name="bala 22" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2178, -183 )
+
+[node name="bala 57" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2177, -258 )
+
+[node name="bala 23" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2177, -24 )
+
+[node name="bala 24" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1915, -41 )
+
+[node name="bala 78" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1915, 198 )
+
+[node name="bala 79" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1912, 114 )
+
+[node name="bala 80" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1915, 41 )
+
+[node name="bala 25" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1913, -114 )
+
+[node name="bala 26" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1914, -189 )
+
+[node name="bala 58" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2175, -106 )
+
+[node name="bala 27" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1914, -257 )
+
+[node name="bala 28" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1574, -183 )
+
+[node name="bala 76" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1573, -109 )
+
+[node name="bala 29" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1575, 181 )
+
+[node name="bala 52" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1575, 260 )
+
+[node name="bala 30" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1577, 112 )
+
+[node name="bala 31" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1571, -38 )
+
+[node name="bala 32" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2654, 171 )
+
+[node name="bala 40" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2871, -173 )
+
+[node name="bala 47" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2877, 31 )
+
+[node name="bala 59" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3178, -181 )
+
+[node name="bala 65" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3182, -248 )
+
+[node name="bala 67" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3441, 8 )
+
+[node name="bala 71" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3449, 278 )
+
+[node name="bala 74" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1572, -256 )
+
+[node name="bala 75" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3443, 218 )
+
+[node name="bala 72" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3441, 79 )
+
+[node name="bala 73" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3444, 156 )
+
+[node name="bala 68" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3435, -253 )
+
+[node name="bala 69" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3437, -139 )
+
+[node name="bala 70" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3435, -199 )
+
+[node name="bala 60" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3181, -111 )
+
+[node name="bala 61" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3179, -47 )
+
+[node name="bala 62" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3186, 85 )
+
+[node name="bala 63" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3189, 214 )
+
+[node name="bala 77" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3189, 155 )
+
+[node name="bala 66" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3188, 273 )
+
+[node name="bala 49" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2168, 227 )
+
+[node name="bala 82" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2173, 56 )
+
+[node name="bala 53" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2168, 283 )
+
+[node name="bala 50" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2873, 229 )
+
+[node name="bala 56" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2873, 276 )
+
+[node name="bala 48" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2874, -245 )
+
+[node name="bala 41" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2872, -96 )
+
+[node name="bala 42" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2871, -29 )
+
+[node name="bala 43" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2637, -243 )
+
+[node name="bala 44" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2641, -169 )
+
+[node name="bala 45" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2645, -76 )
+
+[node name="bala 46" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2645, -14 )
+
+[node name="bala 33" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2658, 226 )
+
+[node name="bala 55" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2656, 285 )
+
+[node name="bala 34" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2420, 128 )
+
+[node name="bala 54" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2429, 284 )
+
+[node name="bala 35" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2414, 63 )
+
+[node name="bala 36" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2416, -7 )
+
+[node name="bala 37" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2416, -85 )
+
+[node name="bala 38" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2415, -170 )
+
+[node name="bala 39" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2415, -243 )
+
+[connection signal="body_entered" from="portal" to="nau/pers" method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="bala 1" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 81" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 83" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 84" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 87" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 89" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 88" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 85" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 86" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 2" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 3" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 4" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 5" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 6" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 7" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 8" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 9" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 10" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 11" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 12" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 64" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 13" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 14" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 15" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 16" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 17" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 18" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 19" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 20" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 21" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 51" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 22" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 57" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 23" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 24" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 78" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 79" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 80" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 25" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 26" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 58" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 27" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 28" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 76" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 29" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 52" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 30" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 31" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 32" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 40" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 47" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 59" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 65" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 67" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 71" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 74" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 75" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 72" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 73" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 68" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 69" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 70" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 60" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 61" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 62" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 63" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 77" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 66" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 49" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 82" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 53" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 50" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 56" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 48" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 41" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 42" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 43" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 44" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 45" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 46" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 33" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 55" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 34" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 54" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 35" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 36" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 37" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 38" to="nau/pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 39" to="nau/pers" method="_on_bala_1_body_entered"]

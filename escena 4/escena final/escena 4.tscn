@@ -1,0 +1,758 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://imatges/helipuerto.png" type="Texture" id=1]
+[ext_resource path="res://escena 4/personatges/nau2.tscn" type="PackedScene" id=2]
+[ext_resource path="res://imatges/camara-trafico-1-removebg-preview.png" type="Texture" id=3]
+[ext_resource path="res://escena 3/personatge/límits.tscn" type="PackedScene" id=4]
+[ext_resource path="res://escena 3/personatge/bala1.tscn" type="PackedScene" id=5]
+[ext_resource path="res://escena 3/personatge/bala2.tscn" type="PackedScene" id=6]
+[ext_resource path="res://escena 4/personatges/portal2.tscn" type="PackedScene" id=7]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Helipuerto" type="Sprite" parent="."]
+position = Vector2( 3.00003, -2 )
+scale = Vector2( 1.19591, 1.25806 )
+texture = ExtResource( 1 )
+
+[node name="pers" parent="." instance=ExtResource( 2 )]
+position = Vector2( -679, -372 )
+
+[node name="Camara-trafico-1-removebg-preview2" type="Sprite" parent="."]
+position = Vector2( -803, -392 )
+scale = Vector2( 0.303303, 0.313333 )
+texture = ExtResource( 3 )
+
+[node name="Camara-trafico-1-removebg-preview3" type="Sprite" parent="."]
+position = Vector2( -682, -669 )
+rotation = 1.56381
+scale = Vector2( 0.303303, 0.313333 )
+texture = ExtResource( 3 )
+
+[node name="Camara-trafico-1-removebg-preview5" type="Sprite" parent="."]
+position = Vector2( 670, -627 )
+rotation = 1.56381
+scale = Vector2( 0.303303, 0.313333 )
+texture = ExtResource( 3 )
+
+[node name="Camara-trafico-1-removebg-preview4" type="Sprite" parent="."]
+position = Vector2( -827, 484 )
+scale = Vector2( 0.303303, 0.313333 )
+texture = ExtResource( 3 )
+
+[node name="bala 1" parent="." instance=ExtResource( 5 )]
+position = Vector2( 894, -728 )
+
+[node name="bala 2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2692, 242 )
+
+[node name="bala 3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2537, -464 )
+
+[node name="bala 4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2551, -87 )
+
+[node name="bala 5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2266, 45 )
+
+[node name="bala 6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1935, 248 )
+
+[node name="bala 7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1788, -290 )
+
+[node name="bala 8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2081, -575 )
+
+[node name="bala 9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2284, -283 )
+
+[node name="bala 10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1647, -637 )
+
+[node name="bala 11" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1671, 81 )
+
+[node name="bala 12" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1225, 214 )
+
+[node name="bala 13" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1230, -81 )
+
+[node name="bala 14" parent="." instance=ExtResource( 5 )]
+position = Vector2( 953, 105 )
+
+[node name="bala 15" parent="." instance=ExtResource( 5 )]
+position = Vector2( 758, 212 )
+
+[node name="bala 155" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1741, -84 )
+
+[node name="bala 156" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1614, -81 )
+
+[node name="bala 157" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2683, -82 )
+
+[node name="bala 159" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2420, -84 )
+
+[node name="bala 160" parent="." instance=ExtResource( 5 )]
+position = Vector2( 947, -85 )
+
+[node name="bala 161" parent="." instance=ExtResource( 5 )]
+position = Vector2( 807, -85 )
+
+[node name="bala 162" parent="." instance=ExtResource( 5 )]
+position = Vector2( 676, -85 )
+
+[node name="bala 163" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2144, -82 )
+
+[node name="bala 164" parent="." instance=ExtResource( 5 )]
+position = Vector2( 419, -86 )
+
+[node name="bala 17" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1479, -338 )
+
+[node name="bala 18" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1361, -619 )
+
+[node name="bala 19" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1124, -305 )
+
+[node name="bala 67" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3203, -642 )
+
+[node name="bala 68" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5001, 328 )
+
+[node name="bala 69" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4846, -378 )
+
+[node name="bala 70" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4860, -1 )
+
+[node name="bala 71" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4575, 131 )
+
+[node name="bala 72" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4244, 334 )
+
+[node name="bala 73" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4097, -204 )
+
+[node name="bala 74" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4390, -489 )
+
+[node name="bala 75" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4593, -197 )
+
+[node name="bala 76" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3956, -551 )
+
+[node name="bala 77" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3980, 167 )
+
+[node name="bala 78" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3534, 300 )
+
+[node name="bala 79" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3545, -12 )
+
+[node name="bala 80" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3262, 191 )
+
+[node name="bala 81" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2975, -87 )
+
+[node name="bala 166" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3107, -83 )
+
+[node name="bala 167" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3529, -81 )
+
+[node name="bala 169" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3661, -77 )
+
+[node name="bala 170" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4100, -75 )
+
+[node name="bala 172" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4232, -71 )
+
+[node name="bala 173" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4685, -75 )
+
+[node name="bala 175" parent="." instance=ExtResource( 5 )]
+position = Vector2( 4817, -71 )
+
+[node name="bala 177" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5490, -63 )
+
+[node name="bala 178" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5350, -61 )
+
+[node name="bala 82" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3788, -252 )
+
+[node name="bala 83" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3670, -533 )
+
+[node name="bala 84" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3371, -199 )
+
+[node name="bala 85" parent="." instance=ExtResource( 5 )]
+position = Vector2( 6598, 328 )
+
+[node name="bala 86" parent="." instance=ExtResource( 5 )]
+position = Vector2( 6443, -378 )
+
+[node name="bala 87" parent="." instance=ExtResource( 5 )]
+position = Vector2( 6457, -1 )
+
+[node name="bala 88" parent="." instance=ExtResource( 5 )]
+position = Vector2( 6172, 131 )
+
+[node name="bala 89" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5841, 334 )
+
+[node name="bala 90" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5694, -204 )
+
+[node name="bala 91" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5987, -489 )
+
+[node name="bala 92" parent="." instance=ExtResource( 5 )]
+position = Vector2( 6190, -197 )
+
+[node name="bala 93" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5553, -551 )
+
+[node name="bala 94" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5577, 167 )
+
+[node name="bala 95" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5385, -252 )
+
+[node name="bala 96" parent="." instance=ExtResource( 5 )]
+position = Vector2( 5267, -533 )
+
+[node name="bala 97" parent="." instance=ExtResource( 5 )]
+position = Vector2( 7109, -556 )
+
+[node name="bala 98" parent="." instance=ExtResource( 5 )]
+position = Vector2( 8907, 414 )
+
+[node name="bala 99" parent="." instance=ExtResource( 5 )]
+position = Vector2( 8752, -292 )
+
+[node name="bala 100" parent="." instance=ExtResource( 5 )]
+position = Vector2( 8766, 85 )
+
+[node name="bala 101" parent="." instance=ExtResource( 5 )]
+position = Vector2( 8481, 217 )
+
+[node name="bala 102" parent="." instance=ExtResource( 5 )]
+position = Vector2( 8150, 420 )
+
+[node name="bala 103" parent="." instance=ExtResource( 5 )]
+position = Vector2( 8003, -118 )
+
+[node name="bala 104" parent="." instance=ExtResource( 5 )]
+position = Vector2( 8296, -403 )
+
+[node name="bala 105" parent="." instance=ExtResource( 5 )]
+position = Vector2( 8499, -111 )
+
+[node name="bala 106" parent="." instance=ExtResource( 5 )]
+position = Vector2( 7862, -465 )
+
+[node name="bala 107" parent="." instance=ExtResource( 5 )]
+position = Vector2( 7886, 253 )
+
+[node name="bala 108" parent="." instance=ExtResource( 5 )]
+position = Vector2( 7440, 386 )
+
+[node name="bala 109" parent="." instance=ExtResource( 5 )]
+position = Vector2( 7451, 74 )
+
+[node name="bala 110" parent="." instance=ExtResource( 5 )]
+position = Vector2( 7168, 277 )
+
+[node name="bala 111" parent="." instance=ExtResource( 5 )]
+position = Vector2( 7021, -1 )
+
+[node name="bala 112" parent="." instance=ExtResource( 5 )]
+position = Vector2( 7694, -166 )
+
+[node name="bala 113" parent="." instance=ExtResource( 5 )]
+position = Vector2( 7576, -447 )
+
+[node name="bala 114" parent="." instance=ExtResource( 5 )]
+position = Vector2( 7277, -113 )
+
+[node name="bala 20" parent="." instance=ExtResource( 5 )]
+position = Vector2( 681, -510 )
+
+[node name="bala 21" parent="." instance=ExtResource( 6 )]
+position = Vector2( -181, 495 )
+
+[node name="bala 22" parent="." instance=ExtResource( 6 )]
+position = Vector2( -67, 714 )
+
+[node name="bala 23" parent="." instance=ExtResource( 6 )]
+position = Vector2( 989, 2350 )
+
+[node name="bala 41" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1019, 2965 )
+
+[node name="bala 42" parent="." instance=ExtResource( 6 )]
+position = Vector2( 152, 3136 )
+
+[node name="bala 43" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1018, 1801 )
+
+[node name="bala 44" parent="." instance=ExtResource( 6 )]
+position = Vector2( 618, 2911 )
+
+[node name="bala 45" parent="." instance=ExtResource( 6 )]
+position = Vector2( -105, 2854 )
+
+[node name="bala 46" parent="." instance=ExtResource( 6 )]
+position = Vector2( -847, 2987 )
+
+[node name="bala 24" parent="." instance=ExtResource( 6 )]
+position = Vector2( 380, 2017 )
+
+[node name="bala 25" parent="." instance=ExtResource( 6 )]
+position = Vector2( -124, 2388 )
+
+[node name="bala 26" parent="." instance=ExtResource( 6 )]
+position = Vector2( -428, 2027 )
+
+[node name="bala 27" parent="." instance=ExtResource( 6 )]
+position = Vector2( -688, 1098 )
+
+[node name="bala 28" parent="." instance=ExtResource( 6 )]
+position = Vector2( 737, 997 )
+
+[node name="bala 29" parent="." instance=ExtResource( 6 )]
+position = Vector2( -128, 1552 )
+
+[node name="bala 30" parent="." instance=ExtResource( 6 )]
+position = Vector2( 300, 1531 )
+
+[node name="bala 31" parent="." instance=ExtResource( 6 )]
+position = Vector2( 321, 420 )
+
+[node name="bala 32" parent="." instance=ExtResource( 6 )]
+position = Vector2( -69, 1194 )
+
+[node name="bala 33" parent="." instance=ExtResource( 6 )]
+position = Vector2( -811, 762 )
+
+[node name="bala 34" parent="." instance=ExtResource( 6 )]
+position = Vector2( -555, 1536 )
+
+[node name="bala 35" parent="." instance=ExtResource( 6 )]
+position = Vector2( 615, 1344 )
+
+[node name="bala 36" parent="." instance=ExtResource( 6 )]
+position = Vector2( -293, 468 )
+
+[node name="bala 37" parent="." instance=ExtResource( 6 )]
+position = Vector2( 540, 693 )
+
+[node name="bala 38" parent="." instance=ExtResource( 6 )]
+position = Vector2( -784, 2003 )
+
+[node name="bala 39" parent="." instance=ExtResource( 6 )]
+position = Vector2( -896, 1387 )
+
+[node name="bala 40" parent="." instance=ExtResource( 6 )]
+position = Vector2( -432, 885 )
+
+[node name="bala 47" parent="." instance=ExtResource( 6 )]
+position = Vector2( 870, 5164 )
+
+[node name="bala 48" parent="." instance=ExtResource( 6 )]
+position = Vector2( 900, 5779 )
+
+[node name="bala 49" parent="." instance=ExtResource( 6 )]
+position = Vector2( 33, 5950 )
+
+[node name="bala 50" parent="." instance=ExtResource( 6 )]
+position = Vector2( 899, 4615 )
+
+[node name="bala 51" parent="." instance=ExtResource( 6 )]
+position = Vector2( 499, 5725 )
+
+[node name="bala 52" parent="." instance=ExtResource( 6 )]
+position = Vector2( -224, 5668 )
+
+[node name="bala 53" parent="." instance=ExtResource( 6 )]
+position = Vector2( -966, 5801 )
+
+[node name="bala 54" parent="." instance=ExtResource( 6 )]
+position = Vector2( 261, 4831 )
+
+[node name="bala 55" parent="." instance=ExtResource( 6 )]
+position = Vector2( -243, 5202 )
+
+[node name="bala 56" parent="." instance=ExtResource( 6 )]
+position = Vector2( -547, 4841 )
+
+[node name="bala 57" parent="." instance=ExtResource( 6 )]
+position = Vector2( -807, 3912 )
+
+[node name="bala 58" parent="." instance=ExtResource( 6 )]
+position = Vector2( 618, 3811 )
+
+[node name="bala 59" parent="." instance=ExtResource( 6 )]
+position = Vector2( -247, 4366 )
+
+[node name="bala 60" parent="." instance=ExtResource( 6 )]
+position = Vector2( 181, 4345 )
+
+[node name="bala 61" parent="." instance=ExtResource( 6 )]
+position = Vector2( -188, 4008 )
+
+[node name="bala 62" parent="." instance=ExtResource( 6 )]
+position = Vector2( -674, 4350 )
+
+[node name="bala 63" parent="." instance=ExtResource( 6 )]
+position = Vector2( 496, 4158 )
+
+[node name="bala 64" parent="." instance=ExtResource( 6 )]
+position = Vector2( -903, 4817 )
+
+[node name="bala 65" parent="." instance=ExtResource( 6 )]
+position = Vector2( -1015, 4201 )
+
+[node name="bala 66" parent="." instance=ExtResource( 6 )]
+position = Vector2( -551, 3699 )
+
+[node name="bala 115" parent="." instance=ExtResource( 6 )]
+position = Vector2( 876, 7532 )
+
+[node name="bala 116" parent="." instance=ExtResource( 6 )]
+position = Vector2( 906, 8147 )
+
+[node name="bala 117" parent="." instance=ExtResource( 6 )]
+position = Vector2( 39, 8318 )
+
+[node name="bala 118" parent="." instance=ExtResource( 6 )]
+position = Vector2( 905, 6983 )
+
+[node name="bala 119" parent="." instance=ExtResource( 6 )]
+position = Vector2( 505, 8093 )
+
+[node name="bala 120" parent="." instance=ExtResource( 6 )]
+position = Vector2( -218, 8036 )
+
+[node name="bala 121" parent="." instance=ExtResource( 6 )]
+position = Vector2( -960, 8169 )
+
+[node name="bala 122" parent="." instance=ExtResource( 6 )]
+position = Vector2( 267, 7199 )
+
+[node name="bala 123" parent="." instance=ExtResource( 6 )]
+position = Vector2( -237, 7570 )
+
+[node name="bala 124" parent="." instance=ExtResource( 6 )]
+position = Vector2( -541, 7209 )
+
+[node name="bala 125" parent="." instance=ExtResource( 6 )]
+position = Vector2( -801, 6280 )
+
+[node name="bala 126" parent="." instance=ExtResource( 6 )]
+position = Vector2( 624, 6179 )
+
+[node name="bala 127" parent="." instance=ExtResource( 6 )]
+position = Vector2( -241, 6734 )
+
+[node name="bala 128" parent="." instance=ExtResource( 6 )]
+position = Vector2( 187, 6713 )
+
+[node name="bala 129" parent="." instance=ExtResource( 6 )]
+position = Vector2( -182, 6376 )
+
+[node name="bala 130" parent="." instance=ExtResource( 6 )]
+position = Vector2( -668, 6718 )
+
+[node name="bala 131" parent="." instance=ExtResource( 6 )]
+position = Vector2( 502, 6526 )
+
+[node name="bala 132" parent="." instance=ExtResource( 6 )]
+position = Vector2( -897, 7185 )
+
+[node name="bala 133" parent="." instance=ExtResource( 6 )]
+position = Vector2( -1009, 6569 )
+
+[node name="bala 134" parent="." instance=ExtResource( 6 )]
+position = Vector2( -545, 6067 )
+
+[node name="bala 135" parent="." instance=ExtResource( 6 )]
+position = Vector2( 757, 10346 )
+
+[node name="bala 136" parent="." instance=ExtResource( 6 )]
+position = Vector2( 787, 10961 )
+
+[node name="bala 137" parent="." instance=ExtResource( 6 )]
+position = Vector2( -80, 11132 )
+
+[node name="bala 138" parent="." instance=ExtResource( 6 )]
+position = Vector2( 786, 9797 )
+
+[node name="bala 139" parent="." instance=ExtResource( 6 )]
+position = Vector2( 386, 10907 )
+
+[node name="bala 140" parent="." instance=ExtResource( 6 )]
+position = Vector2( -337, 10850 )
+
+[node name="bala 141" parent="." instance=ExtResource( 6 )]
+position = Vector2( -1079, 10983 )
+
+[node name="bala 142" parent="." instance=ExtResource( 6 )]
+position = Vector2( 148, 10013 )
+
+[node name="bala 143" parent="." instance=ExtResource( 6 )]
+position = Vector2( -356, 10384 )
+
+[node name="bala 144" parent="." instance=ExtResource( 6 )]
+position = Vector2( -660, 10023 )
+
+[node name="bala 145" parent="." instance=ExtResource( 6 )]
+position = Vector2( -920, 9094 )
+
+[node name="bala 146" parent="." instance=ExtResource( 6 )]
+position = Vector2( 505, 8993 )
+
+[node name="bala 147" parent="." instance=ExtResource( 6 )]
+position = Vector2( -360, 9548 )
+
+[node name="bala 148" parent="." instance=ExtResource( 6 )]
+position = Vector2( 68, 9527 )
+
+[node name="bala 149" parent="." instance=ExtResource( 6 )]
+position = Vector2( -301, 9190 )
+
+[node name="bala 150" parent="." instance=ExtResource( 6 )]
+position = Vector2( -787, 9532 )
+
+[node name="bala 151" parent="." instance=ExtResource( 6 )]
+position = Vector2( 383, 9340 )
+
+[node name="bala 152" parent="." instance=ExtResource( 6 )]
+position = Vector2( -1016, 9999 )
+
+[node name="bala 153" parent="." instance=ExtResource( 6 )]
+position = Vector2( -1128, 9383 )
+
+[node name="bala 154" parent="." instance=ExtResource( 6 )]
+position = Vector2( -664, 8881 )
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 4 )]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -1630, 376 )
+scale = Vector2( 9.07311, 0.615172 )
+
+[node name="StaticBody2D2" parent="." instance=ExtResource( 4 )]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -1618, -502 )
+scale = Vector2( 9.07311, 0.615172 )
+
+[node name="StaticBody2D3" parent="." instance=ExtResource( 4 )]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -558, -1064 )
+rotation = 1.5708
+scale = Vector2( 4.93863, 0.71482 )
+
+[node name="StaticBody2D4" parent="." instance=ExtResource( 4 )]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 783, -854 )
+rotation = 1.5708
+scale = Vector2( 3.1213, 0.654882 )
+
+[node name="StaticBody2D5" parent="." instance=ExtResource( 4 )]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( 806, 138 )
+rotation = 1.5708
+scale = Vector2( 1.04055, 0.781272 )
+
+[node name="Area2D" parent="." instance=ExtResource( 7 )]
+position = Vector2( 731, 134 )
+
+[connection signal="body_entered" from="bala 1" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 2" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 3" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 4" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 5" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 6" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 7" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 8" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 9" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 10" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 11" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 12" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 13" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 14" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 15" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 155" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 156" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 157" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 159" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 160" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 161" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 162" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 163" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 164" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 17" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 18" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 19" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 67" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 68" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 69" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 70" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 71" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 72" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 73" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 74" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 75" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 76" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 77" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 78" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 79" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 80" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 81" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 166" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 167" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 169" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 170" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 172" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 173" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 175" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 177" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 178" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 82" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 83" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 84" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 85" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 86" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 87" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 88" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 89" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 90" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 91" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 92" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 93" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 94" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 95" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 96" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 97" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 98" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 99" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 100" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 101" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 102" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 103" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 104" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 105" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 106" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 107" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 108" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 109" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 110" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 111" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 112" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 113" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 114" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 20" to="pers" method="_on_bala_1_body_entered"]
+[connection signal="body_entered" from="bala 21" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 22" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 23" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 41" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 42" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 43" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 44" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 45" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 46" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 24" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 25" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 26" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 27" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 28" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 29" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 30" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 31" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 32" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 33" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 34" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 35" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 36" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 37" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 38" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 39" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 40" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 47" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 48" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 49" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 50" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 51" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 52" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 53" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 54" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 55" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 56" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 57" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 58" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 59" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 60" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 61" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 62" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 63" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 64" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 65" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 66" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 115" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 116" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 117" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 118" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 119" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 120" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 121" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 122" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 123" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 124" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 125" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 126" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 127" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 128" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 129" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 130" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 131" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 132" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 133" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 134" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 135" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 136" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 137" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 138" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 139" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 140" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 141" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 142" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 143" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 144" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 145" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 146" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 147" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 148" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 149" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 150" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 151" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 152" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 153" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="bala 154" to="pers" method="_on_bala_21_body_entered"]
+[connection signal="body_entered" from="Area2D" to="pers" method="_on_Area2D_body_entered"]
