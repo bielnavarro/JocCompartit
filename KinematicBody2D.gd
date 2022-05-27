@@ -11,9 +11,9 @@ func _physics_process(delta):
 	
 	if Input.is_action_pressed("mou dreta"):
 		velocitat += Vector2.RIGHT * velocitat_base
-	if Input.is_action_pressed("mou esquerra"):
+	if Input.is_action_pressed("mou esquerre"):
 		velocitat += Vector2.LEFT * velocitat_base
-	if Input.is_action_just_pressed("mou adalt") and is_on_floor():
+	if Input.is_action_just_pressed("mou amunt") and is_on_floor():
 		velocitat += salt
 	
 	
@@ -40,11 +40,11 @@ func anima(velocitat: Vector2):
 
 
 func _on_Button_pressed():
-	get_tree().change_scene("res://Sortida del banc.tscn")
+	get_tree().change_scene("res://escena jon/Sortida del banc.tscn")
 
 
 
 func _on_Area2D_body_entered(body):
-	get_tree().change_scene("res://PARKING.tscn")
+	get_tree().change_scene("res://escena jon/PARKING.tscn")
 
 

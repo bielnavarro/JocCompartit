@@ -11,8 +11,7 @@ config_version=4
 [application]
 
 config/name="Joc Compartit"
-run/main_scene="res://ESQUIVAR COTXES.tscn"
-<<<<<<<HEADrun/main_scene="res://ESQUIVAR COTXES.tscn"
+run/main_scene="res://MENU PRINCIPAL.tscn"
 
 [display]
 
