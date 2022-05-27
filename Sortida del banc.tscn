@@ -40,9 +40,6 @@ extents = Vector2( 13.625, 14.5 )
 [sub_resource type="RectangleShape2D" id=7]
 extents = Vector2( 14.625, 20.75 )
 
-[sub_resource type="RectangleShape2D" id=11]
-extents = Vector2( 202.5, 130.75 )
-
 [sub_resource type="RectangleShape2D" id=10]
 extents = Vector2( 45, 63.5 )
 
@@ -63,6 +60,9 @@ extents = Vector2( 25, 13 )
 
 [sub_resource type="RectangleShape2D" id=17]
 extents = Vector2( 108.25, 147.813 )
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 202.5, 130.75 )
 
 [node name="Node2D" type="Node2D"]
 
@@ -102,39 +102,39 @@ scale = Vector2( 0.848611, 0.51183 )
 texture = ExtResource( 3 )
 
 [node name="terra" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="terra"]
 position = Vector2( 2047, 631 )
 shape = SubResource( 1 )
 
 [node name="CadiraCS" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CadiraCS"]
 position = Vector2( 385, 482 )
 shape = SubResource( 4 )
 
 [node name="Archiv1CS" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Archiv1CS"]
 position = Vector2( 662.75, 489.125 )
 shape = SubResource( 5 )
 
 [node name="taulaCS" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="taulaCS"]
 position = Vector2( 495.5, 530 )
 shape = SubResource( 3 )
 
 [node name="Despatx1" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Despatx1"]
 position = Vector2( 895.75, 470.75 )
 shape = SubResource( 6 )
-
-[node name="Desk222Bo" type="Sprite" parent="Despatx1/CollisionShape2D"]
-position = Vector2( 252.25, 57.25 )
-scale = Vector2( 1.49228, 1.51026 )
-texture = ExtResource( 7 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Despatx1"]
 position = Vector2( 1145.25, 549.5 )
@@ -145,12 +145,14 @@ position = Vector2( 1131.38, 488.5 )
 shape = SubResource( 9 )
 
 [node name="calaix" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="calaix"]
 position = Vector2( 703.375, 520.25 )
 shape = SubResource( 7 )
 
 [node name="calaix2" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="calaix2"]
 position = Vector2( 934, 517 )
@@ -160,9 +162,6 @@ shape = SubResource( 7 )
 position = Vector2( 1566, 478.103 )
 scale = Vector2( 1.07136, 1.01878 )
 texture = ExtResource( 8 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Arxxxx4" type="Sprite" parent="Arxxxx"]
 position = Vector2( 282.818, 0 )
@@ -176,20 +175,13 @@ texture = ExtResource( 8 )
 position = Vector2( 89.6055, 0 )
 texture = ExtResource( 8 )
 
-[node name="ArxCS" type="StaticBody2D" parent="Arxxxx"]
-position = Vector2( -1461.69, -367.914 )
-scale = Vector2( 0.933391, 0.810384 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Arxxxx/ArxCS"]
-position = Vector2( 1714.5, 459.25 )
-shape = SubResource( 11 )
-
 [node name="Tabu" type="Sprite" parent="."]
 position = Vector2( 1449.41, 520.667 )
 scale = Vector2( 1.16531, 1.03526 )
 texture = ExtResource( 10 )
 
 [node name="tabuCS" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="tabuCS"]
 position = Vector2( 1449, 527.5 )
@@ -201,24 +193,28 @@ scale = Vector2( 1.34601, 1.07787 )
 texture = ExtResource( 9 )
 
 [node name="taulareu1" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="taulareu1"]
 position = Vector2( 2179, 545.5 )
 shape = SubResource( 12 )
 
 [node name="cadrreu" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="cadrreu"]
 position = Vector2( 2037, 502.5 )
 shape = SubResource( 13 )
 
 [node name="cadrreu3" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="cadrreu3"]
 position = Vector2( 2181, 484 )
 shape = SubResource( 13 )
 
 [node name="cadrreu2" type="StaticBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="cadrreu2"]
 position = Vector2( 2324, 503 )
@@ -257,6 +253,7 @@ __meta__ = {
 }
 
 [node name="print" type="StaticBody2D" parent="."]
+visible = false
 position = Vector2( 96, -8 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="print"]
@@ -264,6 +261,7 @@ position = Vector2( 2477.06, 516 )
 shape = SubResource( 14 )
 
 [node name="print2" type="StaticBody2D" parent="."]
+visible = false
 position = Vector2( 96, -8 )
 __meta__ = {
 "_edit_group_": true
@@ -274,6 +272,7 @@ position = Vector2( 2773, 517 )
 shape = SubResource( 14 )
 
 [node name="print3" type="StaticBody2D" parent="."]
+visible = false
 position = Vector2( 96, -8 )
 __meta__ = {
 "_edit_group_": true
@@ -284,6 +283,7 @@ position = Vector2( 2671, 516 )
 shape = SubResource( 14 )
 
 [node name="print4" type="StaticBody2D" parent="."]
+visible = false
 position = Vector2( 96, -8 )
 __meta__ = {
 "_edit_group_": true
@@ -302,6 +302,7 @@ __meta__ = {
 }
 
 [node name="meeeting" type="StaticBody2D" parent="."]
+visible = false
 position = Vector2( 41, -12 )
 __meta__ = {
 "_edit_group_": true
@@ -312,6 +313,7 @@ position = Vector2( 3276.5, 552.5 )
 shape = SubResource( 15 )
 
 [node name="Cadi9ra" type="StaticBody2D" parent="."]
+visible = false
 position = Vector2( 41.9998, -9 )
 __meta__ = {
 "_edit_group_": true
@@ -322,6 +324,7 @@ position = Vector2( 3211, 479 )
 shape = SubResource( 16 )
 
 [node name="Cadi9ra2" type="StaticBody2D" parent="."]
+visible = false
 position = Vector2( 41.9998, -9 )
 __meta__ = {
 "_edit_group_": true
@@ -377,6 +380,7 @@ scale = Vector2( 0.178037, 0.128742 )
 texture = ExtResource( 15 )
 
 [node name="Area2D" type="Area2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2( 3965.75, 408.813 )
@@ -384,5 +388,19 @@ shape = SubResource( 17 )
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 2 )]
 position = Vector2( 56, 503 )
+
+[node name="Desk222Bo" type="Sprite" parent="."]
+position = Vector2( 1148, 528 )
+scale = Vector2( 1.49228, 1.51026 )
+texture = ExtResource( 7 )
+
+[node name="ArxCS" type="StaticBody2D" parent="."]
+visible = false
+position = Vector2( 0.00390625, 103.28 )
+scale = Vector2( 0.999998, 0.825603 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ArxCS"]
+position = Vector2( 1714.5, 459.25 )
+shape = SubResource( 11 )
 
 [connection signal="body_entered" from="Area2D" to="KinematicBody2D" method="_on_Area2D_body_entered"]
