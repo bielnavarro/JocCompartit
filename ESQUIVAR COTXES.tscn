@@ -17,6 +17,7 @@ extents = Vector2( 4239.25, 29.5 )
 extents = Vector2( 4585.75, 10 )
 
 [node name="Node2D" type="Node2D"]
+position = Vector2( 2, -5 )
 __meta__ = {
 "_edit_horizontal_guides_": [  ]
 }
@@ -154,7 +155,7 @@ position = Vector2( 4060, 478 )
 [node name="cotxeraro3" parent="." instance=ExtResource( 7 )]
 position = Vector2( 7455, 478 )
 
-[connection signal="body_entered" from="final" to="cotxelladre" method="_on_casa_final_body_entered"]
+[connection signal="body_entered" from="final" to="cotxelladre" method="_on_final_body_entered"]
 [connection signal="body_entered" from="policia1" to="cotxelladre" method="_on_policia1_body_entered"]
 [connection signal="body_entered" from="policia2" to="cotxelladre" method="_on_policia2_body_entered"]
 [connection signal="body_entered" from="policia3" to="cotxelladre" method="_on_policia3_body_entered"]

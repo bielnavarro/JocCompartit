@@ -3,7 +3,7 @@ extends Control
 
 
 func _on_Jugar_pressed():
-	get_tree().change_scene("res://Escena1.tscn")
+	get_tree().change_scene("res://ESQUIVAR COTXES.tscn")
 
 
 func _on_Sortir_pressed():
