@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<< HEAD:objectes/icon.png.import
 path="res://.import/icon.png-bfbe42025a39e2a15d73ff7aedbb449e.stex"
-=======
-path="res://.import/esca.png-b4d42e4eb7896ac687c351e592a8a047.stex"
->>>>>>> Biel:esca.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:objectes/icon.png.import
 source_file="res://objectes/icon.png"
 dest_files=[ "res://.import/icon.png-bfbe42025a39e2a15d73ff7aedbb449e.stex" ]
-=======
-source_file="res://esca.png"
-dest_files=[ "res://.import/esca.png-b4d42e4eb7896ac687c351e592a8a047.stex" ]
->>>>>>> Biel:esca.png.import
 
 [params]
 

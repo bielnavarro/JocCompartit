@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<< HEAD:objectes/road_slantHigh.png.import
-path="res://.import/road_slantHigh.png-c72ab74140bda9ce1ffc12d5a1bf68cd.stex"
-=======
 path="res://.import/house_type17_SW.png-a150244e5720d44162a53069617632d4.stex"
->>>>>>> Biel:house_type17_SW.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:objectes/road_slantHigh.png.import
-source_file="res://objectes/road_slantHigh.png"
-dest_files=[ "res://.import/road_slantHigh.png-c72ab74140bda9ce1ffc12d5a1bf68cd.stex" ]
-=======
 source_file="res://house_type17_SW.png"
 dest_files=[ "res://.import/house_type17_SW.png-a150244e5720d44162a53069617632d4.stex" ]
->>>>>>> Biel:house_type17_SW.png.import
 
 [params]
 

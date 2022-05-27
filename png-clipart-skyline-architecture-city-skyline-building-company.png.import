@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<< HEAD:objectes/360_F_259442246_o5tusuc4uBer6O8s0CjVaULQx3ifhJsL.jpg.import
-path="res://.import/360_F_259442246_o5tusuc4uBer6O8s0CjVaULQx3ifhJsL.jpg-be7dae7ba9c20d90eb6ce92840d3b8a7.stex"
-=======
 path="res://.import/png-clipart-skyline-architecture-city-skyline-building-company.png-b2f536f5a7e9fba0ec5e4d23072d210d.stex"
->>>>>>> Biel:png-clipart-skyline-architecture-city-skyline-building-company.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:objectes/360_F_259442246_o5tusuc4uBer6O8s0CjVaULQx3ifhJsL.jpg.import
-source_file="res://objectes/360_F_259442246_o5tusuc4uBer6O8s0CjVaULQx3ifhJsL.jpg"
-dest_files=[ "res://.import/360_F_259442246_o5tusuc4uBer6O8s0CjVaULQx3ifhJsL.jpg-be7dae7ba9c20d90eb6ce92840d3b8a7.stex" ]
-=======
 source_file="res://png-clipart-skyline-architecture-city-skyline-building-company.png"
 dest_files=[ "res://.import/png-clipart-skyline-architecture-city-skyline-building-company.png-b2f536f5a7e9fba0ec5e4d23072d210d.stex" ]
->>>>>>> Biel:png-clipart-skyline-architecture-city-skyline-building-company.png.import
 
 [params]
 

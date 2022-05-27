@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<< HEAD:objectes/tree_large_NE.png.import
-path="res://.import/tree_large_NE.png-c1126579ed1dc869f6d16ff0d3f02f60.stex"
-=======
 path="res://.import/hatchbackSports_W.png-a0373e4c8d815891ebad6f67e9664f89.stex"
->>>>>>> Biel:hatchbackSports_W.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:objectes/tree_large_NE.png.import
-source_file="res://objectes/tree_large_NE.png"
-dest_files=[ "res://.import/tree_large_NE.png-c1126579ed1dc869f6d16ff0d3f02f60.stex" ]
-=======
 source_file="res://hatchbackSports_W.png"
 dest_files=[ "res://.import/hatchbackSports_W.png-a0373e4c8d815891ebad6f67e9664f89.stex" ]
->>>>>>> Biel:hatchbackSports_W.png.import
 
 [params]
 

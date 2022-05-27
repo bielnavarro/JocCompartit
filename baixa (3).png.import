@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<< HEAD:fons borrros.jpg.import
-path="res://.import/fons borrros.jpg-472d6636b0db246a22143d8ffc113e5e.stex"
-=======
 path="res://.import/baixa (3).png-5b5885ed1108c25aaff397b1f07ce6fd.stex"
->>>>>>> Biel:baixa (3).png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:fons borrros.jpg.import
-source_file="res://fons borrros.jpg"
-dest_files=[ "res://.import/fons borrros.jpg-472d6636b0db246a22143d8ffc113e5e.stex" ]
-=======
 source_file="res://baixa (3).png"
 dest_files=[ "res://.import/baixa (3).png-5b5885ed1108c25aaff397b1f07ce6fd.stex" ]
->>>>>>> Biel:baixa (3).png.import
 
 [params]
 

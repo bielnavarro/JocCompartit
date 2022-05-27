@@ -2,24 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-<<<<<<< HEAD:mobil bo.png.import
-path="res://.import/mobil bo.png-780efdb849ef0b546d7ad7207f0c0670.stex"
-=======
 path="res://.import/1.webp-59faef1a0db3c0ec1fe5073b7610408b.stex"
->>>>>>> Biel:1.webp.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:mobil bo.png.import
-source_file="res://mobil bo.png"
-dest_files=[ "res://.import/mobil bo.png-780efdb849ef0b546d7ad7207f0c0670.stex" ]
-=======
 source_file="res://1.webp"
 dest_files=[ "res://.import/1.webp-59faef1a0db3c0ec1fe5073b7610408b.stex" ]
->>>>>>> Biel:1.webp.import
 
 [params]
 
