@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://png-clipart-skyline-architecture-city-skyline-building-company.png" type="Texture" id=1]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 3000, 3000 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxLayer"]
+position = Vector2( 512, 299.5 )
+scale = Vector2( 1.14444, 1.45652 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 3000, 3000 )
