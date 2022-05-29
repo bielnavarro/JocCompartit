@@ -56,3 +56,21 @@ func _on_cotxe_canviescena_body_entered(body):
 
 func _on_PORTACASAINT_body_entered(body):
 	get_tree().change_scene("res://escena 3/escena final/escena final.tscn")
+
+
+func _on_mort_terra_body_entered(body):
+	get_tree().change_scene("res://MENU DE MORT.tscn")
+
+
+
+func _on_terra_mort_body_entered(body):
+	get_tree().change_scene("res://MENU DE MORT.tscn")
+	
+
+
+func _on_terra_mort_2_body_entered(body):
+	get_tree().change_scene("res://MENU DE MORT.tscn")
+
+
+func _on_terra_mort_3_body_entered(body):
+	get_tree().change_scene("res://MENU DE MORT.tscn")

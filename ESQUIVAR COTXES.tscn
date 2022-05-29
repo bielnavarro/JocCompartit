@@ -33,7 +33,7 @@ scale = Vector2( 1.19725, 1.26146 )
 texture = ExtResource( 1 )
 
 [node name="fondo2" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 1534, 301 )
+position = Vector2( 1531, 301 )
 scale = Vector2( 1.197, 1.261 )
 texture = ExtResource( 1 )
 
